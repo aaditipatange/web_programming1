@@ -1,0 +1,51 @@
+.is-palindrome {
+	color: #0000ff;
+}
+.not-palindrome {
+	color: #ff0000;
+}
+body {
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: azure;
+}
+h1 {
+	color: #a541c5;
+	border-style: solid;
+	border-width: 5px;
+}
+.error {
+	color: crimson;
+	font-family: cursive;
+	font-size: large;
+}
+footer {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(33, 105, 107);
+	border-left: 6px solid rgb(20, 67, 138) !important;
+	background-color: rgb(221, 238, 161);
+}
+textarea {
+	width: 500px;
+	resize: none;
+	border-style: ridge;
+}
+button {
+	color: floralwhite;
+	background: slategray;
+	width: 75px;
+	margin-top: 15px !important;
+}
+h1:hover {
+	color: black;
+	font-style: italic;
+}
+footer:hover {
+	color: rgb(63, 21, 216);
+	font-family: fantasy;
+	font-size: x-large;
+}
+li {
+	list-style-position: inside;
+	margin-left: -45px;
+}

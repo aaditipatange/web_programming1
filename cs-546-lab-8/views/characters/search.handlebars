@@ -1,0 +1,14 @@
+{{#if searchedChar.data.results.length}}
+<h1>Characters Found</h1>
+<h2>{{header}}</h2><br>
+<a href="/">Make another search</a>
+<ul> 
+    {{#each searchedChar.data.results}}
+        <li><a href="/characters/{{id}}" class="character-link">{{name}}</a></li>
+      {{/each}}
+</ul>
+{{else}}
+  <p class="error">We're sorry, but no results were found for {{header}}.</p>
+  {{/if}}
+  
+
